@@ -3,7 +3,7 @@ import { FaTwitter, FaSkype, FaVimeoV } from "react-icons/fa";
 import {IoMdRocket} from "react-icons/io";
 function Navbar() {
     return (
-        <div className='bg-black h-20  w-full space-y-72'>
+        <div className='bg-black h-20  w-full space-y-72 top-0 fixed'>
         <div className='container mx-auto h-full flex justify-center items-center'>
             <div className=' mr-44'>
             <div className='text-white font-bold text-2xl space-x-96'>SolnHub.</div>

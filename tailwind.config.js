@@ -10,7 +10,7 @@ module.exports = {
         primaryHover: "#ea3c4f",
         secondary: "#173B3F",
         gb: "#000000",
-        title:"#FFFFFF"
+        title:"#569DD8"
       }
     },
   },
