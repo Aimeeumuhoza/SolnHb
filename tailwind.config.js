@@ -9,7 +9,8 @@ module.exports = {
         primary: "#DA091F",
         primaryHover: "#ea3c4f",
         secondary: "#173B3F",
-        gb: "#000000",
+        bg: "#111111",
+        bg1:"#191919",
         title:"#569DD8"
       }
     },

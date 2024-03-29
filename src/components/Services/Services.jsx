@@ -1,0 +1,55 @@
+import React from 'react';
+import { BsArrowRightCircle } from "react-icons/bs";
+import { FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt } from "react-icons/fa";
+import { BiDollarCircle } from "react-icons/bi";
+function Services() {
+    return (
+        <div className='bg-bg h-screen'>
+            <h1 className='text-white'>Services</h1>
+            <div className='flex flex-col justify-center items-center mt-24 '>
+                <div className='flex flex-row w-3/5'>
+                    <div className='flex text-white w-2/5 h-64 bg-bg1 m-4 justify-center items-center flex-col'>
+                        <FaPaperPlane className='text-blue-500 mb-4' size={40} />
+                        <h1 className='text-white text-2xl mb-4'>Services1</h1>
+                        <h2 className='text-gray-300 ml-4 mb-4 text-center'>Lorem ipsum dolor sit mattis amet consectetur adipiscing</h2>
+                        <BsArrowRightCircle className='text-gray-500' size={40} />
+                    </div>
+                    <div className='flex text-white w-2/5 h-64 bg-bg1 m-4 justify-center items-center flex-col'>
+                        <FaPaperPlane className='text-blue-500 mb-4' size={40} />
+                        <h1 className='text-white text-2xl mb-4'>Services1</h1>
+                        <h2 className='text-gray-300 ml-4 mb-4 text-center'>Lorem ipsum dolor sit mattis amet consectetur adipiscing</h2>
+                        <BsArrowRightCircle className='text-gray-500' size={40} />
+                    </div>
+                    <div className='flex text-white w-2/5 h-64 bg-bg1 m-4 justify-center items-center flex-col'>
+                        <FaPaperPlane className='text-blue-500 mb-4' size={40} />
+                        <h1 className='text-white text-2xl mb-4'>Services1</h1>
+                        <h2 className='text-gray-300 ml-4 mb-4 text-center'>Lorem ipsum dolor sit mattis amet consectetur adipiscing</h2>
+                        <BsArrowRightCircle className='text-gray-500' size={40} />
+                    </div>
+                </div>
+                <div className='flex flex-row w-3/5'>
+                <div className='flex text-white w-2/5 h-64 bg-bg1 m-4 justify-center items-center flex-col'>
+                        <FaPaperPlane className='text-blue-500 mb-4' size={40} />
+                        <h1 className='text-white text-2xl mb-4'>Services1</h1>
+                        <h2 className='text-gray-300 ml-4 mb-4 text-center'>Lorem ipsum dolor sit mattis amet consectetur adipiscing</h2>
+                        <BsArrowRightCircle className='text-gray-500' size={40} />
+                    </div>
+                    <div className='flex text-white w-2/5 h-64 bg-bg1 m-4 justify-center items-center flex-col'>
+                        <FaPaperPlane className='text-blue-500 mb-4' size={40} />
+                        <h1 className='text-white text-2xl mb-4'>Services1</h1>
+                        <h2 className='text-gray-300 ml-4 mb-4 text-center'>Lorem ipsum dolor sit mattis amet consectetur adipiscing</h2>
+                        <BsArrowRightCircle className='text-gray-500' size={40} />
+                    </div>
+                    <div className='flex text-white w-2/5 h-64 bg-bg1 m-4 justify-center items-center flex-col'>
+                        <FaPaperPlane className='text-blue-500 mb-4' size={40} />
+                        <h1 className='text-white text-2xl mb-4'>Services1</h1>
+                        <h2 className='text-gray-300 ml-4 mb-4 text-center'>Lorem ipsum dolor sit mattis amet consectetur adipiscing</h2>
+                        <BsArrowRightCircle className=' text-gray-500' size={40} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Services;
