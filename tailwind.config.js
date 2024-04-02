@@ -11,7 +11,8 @@ module.exports = {
         secondary: "#173B3F",
         bg: "#111111",
         bg1:"#191919",
-        title:"#569DD8"
+        title:"#569DD8",
+        dark:"#191919"
       }
     },
   },
