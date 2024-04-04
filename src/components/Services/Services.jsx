@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsArrowRightCircle } from "react-icons/bs";
-import { FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt } from "react-icons/fa";
-import { BiDollarCircle } from "react-icons/bi";
+import { FaPaperPlane} from "react-icons/fa";
+// import { BiDollarCircle } from "react-icons/bi";
 function Services() {
     return (
         <div className='bg-bg h-auto '>

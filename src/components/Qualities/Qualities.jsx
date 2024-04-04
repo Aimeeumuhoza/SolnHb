@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelopeOpen } from "react-icons/fa";
 import {AiOutlineReload} from "react-icons/ai";
 import headerMainImg from '../../assets/form.jpg';
 function Qualities() {
