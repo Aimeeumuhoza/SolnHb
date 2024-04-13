@@ -8,7 +8,7 @@ function Qualities() {
             <div className='container w-3/4  justify-center mx-auto '>
                 <div className='text-center flex flex-col lg:flex-row gap-12'>
                     <div className='lg:w-1/2 text-white text-center mb-1'>
-                        <h4 className='text-5xl py-8 font-bold mb'>We Are Professionals</h4>
+                        <h4 className='text-4xl py-8 font-bold mb'>We Are Professionals</h4>
                         <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Unde voluptates deserunt,
                             molestiae soluta cumque eum.</p>
