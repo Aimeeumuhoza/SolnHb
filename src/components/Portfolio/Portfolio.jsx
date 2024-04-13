@@ -5,14 +5,14 @@ import image from "../../assets/portfolio.jpg";
 // import { BiDollarCircle } from "react-icons/bi";
 function Portfolio() {
     return (
-        <div className='bg-bg h-auto '>
+        <div className='bg-bg h-auto w-full '>
             <div className='flex flex-col justify-center items-center p-12 '>
                 <div className=' text-white text-4xl p-8'>
                     <h1>Our Portfolio</h1>
                 </div>
                 <h1 className=' text-zinc-500 text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Amet corrupti laboriosam fugit expedita inventore temporibus!</h1>
-                <div className='flex flex-col lg:flex-row h-auto w-4/5 mt-24'>
+                <div className='flex flex-col lg:flex-row h-auto mt-24'>
                     <div
                         className='flex text-white w-96 h-96 m-4 justify-center items-center flex-col relative'
                         style={{ backgroundImage: `url(${image})` }}
