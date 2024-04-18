@@ -4,8 +4,8 @@ const Footer = () => {
   let date = new Date();
 
   return (
-    <footer className="bg-black py-6 flex items-center h-5 overflow-x-hidden overflow-y-hidden ">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <div className=" flex items-center h-24 bg-black">
+      <div className=" mx-auto flex space-x-56 md:flex-row px-10">
         <div className="text-white text-left">
           <p className="text-xl">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
@@ -16,7 +16,7 @@ const Footer = () => {
           <p>&copy; {date.getFullYear().toString()} SolnHub. Theme</p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
